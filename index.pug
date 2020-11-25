@@ -1,0 +1,30 @@
+doctype html
+html(lang="en").is-loading
+	head
+		title USA 2200 | United Simulator of America
+		link(rel="stylesheet", href="./css/style.scss")
+		link(href="https://fonts.googleapis.com/css2?family=VT323&display=swap", rel="stylesheet")
+		link(rel="icon", type="image/png", sizes="32x32", href="img/favicon.png")
+		meta(name="theme-color", content="#000000")
+	body
+		main.page-wrapper
+			section.map-wrapper
+				canvas.map
+			section.ui-wrapper
+				a.ui.title(href="/") USA 2200
+				button.ui.toggle.toggle-simulation Pause
+				button.ui.toggle.toggle-information Info
+		aside.add
+			.add-wrapper
+				script(async, type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CKYIL27N&placement=bennettfeelycom" id="_carbonads_js")
+			button.ui.carbon-close Close Ad
+		aside.information.overlay
+			.information-box.overlay-inner
+				p USA 2200 is brought to you by <a href="">Bennett Feely</a> (<a href="https://twitter.com/bennettfeely">@bennettfeely</a>).
+				p Find this project on <a href="https://github.com/bennettfeely.com/usa2020">GitHub</a>.
+				p God Bless America!
+		header.loading.overlay
+			.loading-box.overlay-inner
+				h1 USA 2200
+				h2.loading-status Loading 0%
+		script(src="js/main.js")

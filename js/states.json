@@ -1,0 +1,198 @@
+{
+	"AL": {
+		"color": 6,
+		"name": "Alabama",
+	},
+	"AZ": {
+		"color": 2,
+		"name": "Arizona",
+	},
+	"AR": {
+		"color": 3,
+		"name": "Arkansas",
+	},
+	"CA": {
+		"color": 3,
+		"name": "California",
+	},
+	"CO": {
+		"color": 3,
+		"name": "Colorado",
+	},
+	"CT": {
+		"color": 4,
+		"name": "Connecticut",
+	},
+	"DE": {
+		"color": 5,
+		"name": "Delaware",
+	},
+	"FL": {
+		"color": 8,
+		"name": "Florida",
+	},
+	"GA": {
+		"color": 4,
+		"name": "Georgia",
+	},
+	"ID": {
+		"color": 8,
+		"name": "Idaho",
+	},
+	"IL": {
+		"color": 4,
+		"name": "Illinois",
+	},
+	"IN": {
+		"color": 7,
+		"name": "Indiana",
+	},
+	"IA": {
+		"color": 8,
+		"name": "Iowa",
+	},
+	"KS": {
+		"color": 2,
+		"name": "Kansas",
+	},
+	"KY": {
+		"color": 5,
+		"name": "Kentucky",
+	},
+	"LA": {
+		"color": 7,
+		"name": "Louisiana",
+	},
+	"ME": {
+		"color": 9,
+		"name": "Maine",
+	},
+	"MD": {
+		"color": 6,
+		"name": "Maryland",
+	},
+	"MA": {
+		"color": 5,
+		"name": "Massachusetts",
+	},
+	"MI": {
+		"color": 9,
+		"name": "Michigan",
+	},
+	"MN": {
+		"color": 2,
+		"name": "Minnesota",
+	},
+	"MS": {
+		"color": 2,
+		"name": "Mississippi",
+	},
+	"MO": {
+		"color": 10,
+		"name": "Missouri",
+	},
+	"MT": {
+		"color": 4,
+		"name": "Montana",
+	},
+	"NE": {
+		"color": 6,
+		"name": "Nebraska",
+	},
+	"NV": {
+		"color": 9,
+		"name": "Nevada",
+	},
+	"NH": {
+		"color": 4,
+		"name": "New Hampshire",
+	},
+	"NJ": {
+		"color": 10,
+		"name": "New Jersey",
+	},
+	"NM": {
+		"color": 8,
+		"name": "New Mexico",
+	},
+	"NY": {
+		"color": 3,
+		"name": "New York",
+	},
+	"NC": {
+		"color": 3,
+		"name": "North Carolina",
+	},
+	"ND": {
+		"color": 9,
+		"name": "North Dakota",
+	},
+	"OH": {
+		"color": 8,
+		"name": "Ohio",
+	},
+	"OK": {
+		"color": 9,
+		"name": "Oklahoma",
+	},
+	"OR": {
+		"color": 7,
+		"name": "Oregon",
+	},
+	"PA": {
+		"color": 7,
+		"name": "Pennsylvania",
+	},
+	"RI": {
+		"color": 7,
+		"name": "Rhode Island",
+	},
+	"SC": {
+		"color": 7,
+		"name": "South Carolina",
+	},
+	"SD": {
+		"color": 5,
+		"name": "South Dakota",
+	},
+	"TN": {
+		"color": 9,
+		"name": "Tennessee",
+	},
+	"TX": {
+		"color": 4,
+		"name": "Texas",
+	},
+	"UT": {
+		"color": 5,
+		"name": "Utah",
+	},
+	"VT": {
+		"color": 10,
+		"name": "Vermont",
+	},
+	"VA": {
+		"color": 10,
+		"name": "Virginia",
+	},
+	"WA": {
+		"color": 2,
+		"name": "Washington",
+	},
+	"WV": {
+		"color": 2,
+		"name": "West Virginia",
+	},
+	"WI": {
+		"color": 3,
+		"name": "Wisconsin",
+	},
+	"WY": {
+		"color": 10,
+		"name": "Wyoming",
+	},
+	"US": {
+		"color": 11,
+		"name": "Border",
+	},
+}

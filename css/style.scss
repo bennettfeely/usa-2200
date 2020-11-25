@@ -1,0 +1,234 @@
+// Partials ============================================================
+@import "reset";
+@import "colors";
+@import "functions";
+@import "extensions";
+
+$tablet: 32em;
+
+$dark: black;
+$light: white;
+
+:root {
+	--pixel: 10px;
+}
+
+// Specific reset
+h1,
+h2,
+h3,
+p,
+a,
+button,
+img {
+	font: inherit;
+	color: inherit;
+	background: inherit;
+	border: inherit;
+	text-decoration: none;
+	image-rendering: pixelated;
+}
+
+html {
+	font-size: 10px;
+}
+
+body {
+	font: 100%/1 "VT323", Monaco, monospace;
+	background: $dark;
+	color: $light;
+	text-transform: uppercase;
+}
+
+main.page-wrapper {
+	position: relative;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: calc(100vh);
+}
+
+// Overlay =============================================================
+.overlay {
+	display: none;
+	align-items: center;
+	justify-content: center;
+	font-size: 2em;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 10;
+	text-align: center;
+}
+
+.overlay-inner {
+	max-width: 20rem;
+}
+
+// Loading =============================================================
+.loading {
+	font-size: 4em;
+
+	.is-loading & {
+		display: flex;
+	}
+}
+
+// UI ==================================================================
+.ui-wrapper {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.ui {
+	font-size: 3em;
+	line-height: 0.8;
+	position: absolute;
+	text-transform: uppercase;
+	margin: 1rem 1rem;
+	opacity: 0;
+
+	.is-started & {
+		opacity: 1;
+	}
+}
+
+a.ui,
+button.ui {
+	&:hover {
+		text-decoration: underline;
+	}
+
+	&:focus {
+		outline: none;
+		background: gray;
+	}
+
+	&.is-active,
+	&:active {
+		background: $light;
+		color: $dark;
+	}
+}
+
+.title {
+	top: 0;
+	left: 0;
+}
+
+.toggle {
+	cursor: pointer;
+}
+
+.toggle-simulation {
+	top: 0;
+	right: 0;
+}
+
+.toggle-information {
+	bottom: 0;
+	right: 0;
+
+	.has-information & {
+		z-index: 20;
+	}
+}
+
+// Infobox =============================================================
+.information {
+	display: none;
+
+	.has-information & {
+		display: flex;
+		background: rgba($dark, 0.9);
+	}
+}
+
+.information-box {
+	p {
+		margin-bottom: 2rem;
+	}
+
+	a {
+		text-decoration: underline;
+	}
+}
+
+// Advertisment ========================================================
+.add {
+	position: absolute;
+	bottom: 1rem;
+	left: 2rem;
+	max-width: 30rem;
+	font-size: 1.75em;
+	display: none;
+
+	.is-started & {
+		display: block;
+		animation: load-ad 1s 1s both;
+
+		@keyframes load-ad {
+			0% {
+				opacity: 0;
+			}
+		}
+	}
+
+	a {
+		display: block;
+	}
+
+	img {
+		vertical-align: top;
+		filter: contrast(100);
+	}
+
+	.carbon-img {
+		vertical-align: top;
+		margin-bottom: 1rem;
+		width: 130px;
+	}
+
+	.carbon-poweredby {
+		opacity: 0.5;
+	}
+
+	.carbon-close {
+		font-size: 1.33em;
+		color: $light;
+		line-height: inherit;
+		position: initial;
+		cursor: pointer;
+		background: $dark;
+		margin: 1rem 0 0;
+		padding: 0;
+	}
+}
+
+// Map =================================================================
+.map-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	overflow: hidden;
+}
+
+.map {
+	max-width: 100vw;
+	max-height: 100vh;
+	width: auto;
+	height: auto;
+	background: transparent;
+	vertical-align: top;
+	margin: 0 auto;
+}
