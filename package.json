@@ -1,15 +1,17 @@
 {
-  "name": "usa-parcel",
+  "name": "usa-2200",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build index.pug"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "parcel-bundler": "^1.12.4",
     "pug": "^3.0.0"
   }
 }
