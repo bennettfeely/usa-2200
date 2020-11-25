@@ -1,11 +1,37 @@
 doctype html
 html(lang="en").is-loading
 	head
+		- var description = "A retro simulation of an America where every state is battling for control of the nation";
+
+		//- Essentials
+		meta(charset="utf-8")
+		meta(name="viewport", content="width=device-width, initial-scale=1")
 		title USA 2200 | United Simulator of America
+		meta(name="description", content=description)
+		//- Styles
 		link(rel="stylesheet", href="./css/style.scss")
 		link(href="https://fonts.googleapis.com/css2?family=VT323&display=swap", rel="stylesheet")
-		link(rel="icon", type="image/png", sizes="32x32", href="img/favicon.png")
 		meta(name="theme-color", content="#000000")
+		//- Favicon
+		link(rel="icon", type="image/png", sizes="32x32", href="img/favicon.png")
+		//- Facebook
+		meta(property="og:title", content="USA 2200")
+		meta(property="og:description", content=description)
+		meta(property="og:image", content="img/og-image.png")
+		meta(property="og:image:height", content="1152")
+		meta(property="og:image:width", content="2200")
+		meta(property="og:locale", content="en_US")
+		meta(meta property="og:type", content="website")
+		//- Twitter
+		meta(name="twitter:card", content="summary")
+		meta(name="twitter:title", content="USA 2200")
+		meta(name="twitter:description", content=description)
+		meta(name="twitter:image", content="img/og-image.png")
+		meta(name="twitter:creator", content="@bennettfeely")
+		//- QQ/Wechat
+		meta(itemprop="name", content="USA 2200")
+		meta(itemprop="image", content="img/og-image.png")
+		meta(name="description" itemprop="description", content=description)
 	body
 		main.page-wrapper
 			section.map-wrapper
