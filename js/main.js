@@ -129,7 +129,7 @@ function initRenderCanvas(ctx) {
 
 function loadingIndicator() {
 	var min = 30;
-	var max = 120;
+	var max = 80;
 	var rand_interval = Math.floor(Math.random() * (max - min + 1) + min);
 	var rand_update = Math.floor(Math.random() * loading_pct * 0.1 + 2);
 
@@ -147,7 +147,7 @@ function loadingIndicator() {
 			document.querySelector("html").classList.add("is-started");
 
 			startSimulation();
-		}, 700);
+		}, 500);
 	}
 }
 

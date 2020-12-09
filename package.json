@@ -8,7 +8,7 @@
     "build": "parcel build index.pug"
   },
   "keywords": [],
-  "author": "",
+  "author": "Bennett Feely",
   "license": "ISC",
   "devDependencies": {
     "parcel-bundler": "^1.12.4",
